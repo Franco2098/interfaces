@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+}
+
+label {
+    color: blue;
+ }
+
+button {
+    color: white;
+    background-color: black;
+}
