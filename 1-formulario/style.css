@@ -1,12 +1,23 @@
 body {
-    text-align: center;
+    display: flex;
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #b9b0b0;
 }
 
 label {
     color: blue;
  }
 
+ fieldset {
+    gap: 100px;
+ }
+
 button {
     color: white;
     background-color: black;
+    margin-top: 20px;
 }
+
