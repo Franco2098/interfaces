@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+    height: 50px;
+    width: 120px;
+    margin-top: 50px;
+}
+
+input {
+    height: 40px;
+    width: 400px;
+    border-radius: 8px;
+}
+
+.clave {
+    display: none;
+}
+
+.fin {
+    display: none;
+}
+
+.correo {
+    display: none;
+}
+
+#correo {
+    color: black;
+}
+
+.card {
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    width: 1000px;
+    min-height: 300px;
+}
+
+#ingreso{
+    text-align: center;
+    margin-top: 120px;
+}
+
