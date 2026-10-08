@@ -1,0 +1,43 @@
+body {
+    background-color: #FCF7C5;
+    border: 2px solid #29221F;
+    width: 1000px;
+    height: 1000px;
+
+    margin: auto;
+    color: #29221F
+}
+
+#imagen{
+    margin-left: 35%;
+}
+
+button:not(#agregar) {
+    background-color: #FC354C;
+    height: 25px;
+    width: 150px;
+}
+
+#agregar{
+    background-color: #0ABFBC;
+    margin-left: 20px;
+}
+
+
+
+#tarea{
+    background-color: #FCF7C5;
+    border: 2px solid #29221F;
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 10%;
+}
+
+#hola1{
+    color: red;
+}
+
+#lista {
+    
+
+}
