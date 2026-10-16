@@ -15,14 +15,13 @@ body {
 button:not(#agregar) {
     background-color: #FC354C;
     height: 25px;
-    width: 150px;
+    width: 25px;
 }
 
 #agregar{
     background-color: #0ABFBC;
     margin-left: 20px;
 }
-
 
 
 #tarea{
@@ -33,11 +32,9 @@ button:not(#agregar) {
     margin-top: 10%;
 }
 
-#hola1{
-    color: red;
-}
-
-#lista {
-    
-
+.contenedor{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 10px;
 }
