@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(110, 187, 187);
+}
+
+h1,h2 {
+    text-align: center;
+}
+
+
+#columnas {
+    display: flex;
+    gap: 20px;
+    align-items: stretch;
+}
+
+#lista {
+    border: 2px solid;
+    flex: 1;
+    min-width: 0;
+}
+
+#caracteristicas {
+    border: 2px solid;
+    flex: 1;
+    min-width: 0;
+}
+
+.imagen{
+    width: 30px;
+    height: 30px;
+}
+
+.imagen2{
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+}
+
+.fichaNombres{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+
+.botonNombre{
+    width: 100px;
+    margin-left: 20px;
+    
+}
+
+.fichaCaracteristicas{
+    margin-left: 10px;
+}
